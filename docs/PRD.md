@@ -55,11 +55,28 @@ Lack of standardized postmortems
 Enable engineering teams to investigate incidents in minutes instead of hours through AI-driven root cause analysis and incident intelligence.
 
 ## Goals
-Business Goals
-User Goals
-Product Goals
+## Business Goals:
+Reduce incident investigation effort
+Increase engineering productivity
+Demonstrate practical AI application in DevOps workflows
+
+## User Goals:
+Quickly understand deployment failures
+Identify root causes faster
+Access historical incident knowledge
+
+## Product Goals:
+Deliver incident summaries within seconds
+Provide actionable remediation guidance
+Surface similar historical incidents
+Create standardized incident documentation
 
 ## Success Metrics
+Average Investigation Time Saved per Incident
+Mean Time To Resolution (MTTR) reduction. (Before= 60mins, After= 45mins --> Improvement by 25%)
+Percentage of Incidents Resolved with AI Assistance --> reflects about Adoption
+
+
 
 ## User Journey
 
@@ -68,6 +85,13 @@ Product Goals
 ## Non Functional Requirements
 
 ## Risks
+
+## Definition of Success
+Users can upload deployment logs and receive analysis within 30 seconds.
+Root cause accuracy exceeds 80%.
+Investigation time is reduced by at least 50%.
+Users can generate complete postmortems with minimal manual effort.
+The platform demonstrates measurable value for DevOps and SRE workflows.
 
 ## Future Roadmap
 Version 2 expansion ideas
