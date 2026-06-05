@@ -93,10 +93,33 @@ Recommended Resolution
 8. User generates a report.
    
 ## Functional Requirements
+Epic 1- Incident Analysis
+Epic 2- AI Incident Investigation
+Epic 3- Incident Retrieval
+Epic 4- Incident Resolution Recommendation
+Epic 5- Incident Report Generation
 
 ## Non Functional Requirements
+1. ## Performance
+   Can generate result within 30 seconds of file upload
+   Search historic data within 20 seconds
+   
+2. ## Scalability
+   Can handle 100 concurrent users in MVP phase.
+   Can store 10000 incidents in MVP phase
+3. ## Availability
+   System should be available 99.9% time
+4. Security:
+   Secure file upload
+   Data encryption during storage
+   API key protection
+   User authenticatiob
 
-## Risks
+## Risks and Mitigation
+AI Hallucination --> Using confidence score and user review
+Low Accuracy --> Historical incident retrieval and maintaining large datasets
+Large log files --> Limit file size
+AI wording accuracy --> Create Root Cause categories
 
 ## Definition of Success
 Users can upload deployment logs and receive analysis within 30 seconds.
