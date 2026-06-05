@@ -79,7 +79,19 @@ Percentage of Incidents Resolved with AI Assistance --> reflects about Adoption
 
 
 ## User Journey
-
+1. Access the UI
+2. Upload the logs, artifacts, files in each of the fields.
+3. If your product doesnt capture certain details and you don't have the file, then user can skip it.
+4. Click on Submit.
+5. The Agents will analyse the historic datasets and help generate the report.
+6. AI will generate:
+Incident Summary
+Probable Root Cause
+Confidence Score
+Recommended Resolution
+7. User reviews the recommendation.
+8. User generates a report.
+   
 ## Functional Requirements
 
 ## Non Functional Requirements
