@@ -109,12 +109,25 @@ Acceptance Criteria:
 
 ## Epic 2- AI Incident Investigation
 Feature -->
-
+Acceptance Criteria:
+1. Analysis completion within 25 seconds.
+2. Incident summary generated
+3. Root cause identified
+4. Confidence score to be given
+   
 ## Epic 3- Incident Retrieval
-Feature -->
+Feature --> Historical data search for similar incidents
+Acceptance Criteria:
+1. When the log files are uploaded by the user and submit, AI must start a search on it database for similar incident.
+2. Top 3 historic incidents to be returned
+3. Investigation from the historical dataset should be completed within 25seconds 
 
 ## Epic 4- Incident Resolution Recommendation
-Feature -->
+Feature --> AI suggest resolution for the failure
+Based on incident retrieval, AI must give the recommendation steps for resolving the pipeline failure issue
+Acceptance Criteria:
+1. Should have 1 or more resolution stated
+2. The resolution should be linked to the root cause.
 
 ## Epic 5- Incident Report Generation
 Feature --> AI will generate Root Cause Analysis report
@@ -171,3 +184,8 @@ Slack alerts
 Deployment risk prediction
 Incident trend dashboard
 Release health scoring
+
+
+
+
+What does Root Cause Accuracy mean?
