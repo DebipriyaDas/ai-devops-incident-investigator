@@ -93,11 +93,43 @@ Recommended Resolution
 8. User generates a report.
    
 ## Functional Requirements
-Epic 1- Incident Analysis
-Epic 2- AI Incident Investigation
-Epic 3- Incident Retrieval
-Epic 4- Incident Resolution Recommendation
-Epic 5- Incident Report Generation
+## Epic 1- Incident Analysis
+Feature --> File upload
+Type of files to support:
+1. .txt
+2. .log
+3. .json
+4. .xml
+5. .csv
+
+Acceptance Criteria:
+1. File length of maximum 25M can be uploaded.
+2. On upload of files, user must get a success message.
+3. Error to be thrown if the file size exceeds or there is glitch with the uploaded files.
+
+## Epic 2- AI Incident Investigation
+Feature -->
+
+## Epic 3- Incident Retrieval
+Feature -->
+
+## Epic 4- Incident Resolution Recommendation
+Feature -->
+
+## Epic 5- Incident Report Generation
+Feature --> AI will generate Root Cause Analysis report
+The report must have the following details:
+1. Executive Summary
+2. Incident Timeline
+3. Root Cause
+4. Impact and Scope
+5. Resolution Steps
+6. Action Items
+   
+Acceptance Criteria:
+1. Should generate the report within 20 seconds.
+2. Should be editable.
+3. Can be exported 
 
 ## Non Functional Requirements
 1. ## Performance
