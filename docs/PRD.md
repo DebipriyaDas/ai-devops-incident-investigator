@@ -74,7 +74,23 @@ Confidence Score
 Recommended Resolution
 7. User reviews the recommendation.
 8. User generates a report.
-   
+
+## Architecture
+Layer 1
+User Upload
+
+Layer 2
+File Parser
+
+Layer 3
+AI Analysis Engine
+
+Layer 4
+Incident Repository
+
+Layer 5
+Dashboard
+
 ## Functional Requirements
 ## Epic 1- Incident Analysis
 Feature --> File upload
