@@ -91,6 +91,81 @@ Incident Repository
 Layer 5
 Dashboard
 
+## Product Flow
+Upload Log File
+        ↓
+Extract Text
+        ↓
+Gemini Analysis
+        ↓
+Find Similar Historical Incidents
+        ↓
+Generate RCA Report
+        ↓
+Store in Supabase
+        ↓
+Download Report
+
+
+
+## Product Flow with Historical Incident Retrieval
+
+New flow:
+
+Uploaded Log
+      ↓
+Search historical_incidents
+      ↓
+Find top matching incidents
+      ↓
+Send matches + current log to Gemini
+      ↓
+Generate smarter RCA
+
+Example:
+
+User uploads:
+[ERROR] Database connection timeout after deployment
+
+Current system:
+
+Root Cause:
+Possible database connectivity issue.
+
+Future system:
+
+Found 4 similar historical incidents.
+
+Most common root cause:
+Incorrect DB connection string after deployment.
+
+Recommended resolution:
+Validate DB credentials and rollback recent config changes.
+
+## Sample Incident Report
+INCIDENT REPORT
+
+Incident Summary
+Deployment failed during rollout because the target node ran out of disk space.
+
+Category
+Infrastructure
+
+Severity
+Medium
+
+Probable Root Cause
+Node out of disk space.
+
+Confidence Score
+92%
+
+Recommended Resolution
+Free disk space and reschedule workloads.
+
+Similar Historical Incident
+INC-00001
+
 ## Functional Requirements
 ## Epic 1- Incident Analysis
 Feature --> File upload
