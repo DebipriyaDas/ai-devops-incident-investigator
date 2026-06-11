@@ -43,11 +43,12 @@ An AI-powered assistant that:
 
 ## Technology Stack
 
-- OpenAI
-- n8n
-- Supabase
-- Lovable
-- Vercel
+## Tech Stack          Layer Technology
+Frontend	             Lovable + React
+Workflow	             n8n
+LLM	                   Gemini
+Database	             Supabase
+Dataset	               200 historical incidents
 
 ## Results
 
