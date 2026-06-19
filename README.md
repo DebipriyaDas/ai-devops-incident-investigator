@@ -1,3 +1,10 @@
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue)
+![Supabase](https://img.shields.io/badge/Database-Supabase-green)
+![n8n](https://img.shields.io/badge/Automation-n8n-orange)
+![Gemini](https://img.shields.io/badge/LLM-Gemini-red)
+![Status](https://img.shields.io/badge/Status-MVP-success)
+
 # AI-Powered DevOps Incident Investigator
 
 An AI-assisted DevOps and SRE incident investigation platform that analyzes deployment logs, identifies probable root causes, surfaces historical incidents, recommends remediation actions, and automatically generates postmortem reports.
