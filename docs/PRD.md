@@ -19,17 +19,17 @@ Create postmortem documentation
 This process is time-consuming, repetitive, and highly dependent on individual expertise.
 
 ## User Personas and pain-points
-## DevOps Engineers
+DevOps Engineers:
 Thousands of log lines to analyze
 Slow root cause identification
 Repeated investigation of similar incidents
 
-## SRE Teams
+SRE Teams:
 High MTTR
 Alert fatigue
 Pressure during production outages
 
-## Engineering Managers
+Engineering Managers:
 Reduced engineering productivity
 Delayed incident resolution
 Lack of standardized postmortems
@@ -64,16 +64,16 @@ Percentage of Incidents Resolved with AI Assistance --> reflects about Adoption
 ## User Journey
 1. Access the UI
 2. Upload the logs, artifacts, files in each of the fields.
-3. If your product doesnt capture certain details and you don't have the file, then user can skip it.
-4. Click on Submit.
-5. The Agents will analyse the historic datasets and help generate the report.
-6. AI will generate:
+3. Click on Submit.
+4. The Agents will analyse the historic datasets and help generate the report.
+5. AI will generate:
 Incident Summary
 Probable Root Cause
 Confidence Score
 Recommended Resolution
+Full Postmortem Report
 7. User reviews the recommendation.
-8. User generates a report.
+8. User downloads the report.
 
 ## Architecture
 Layer 1
@@ -163,7 +163,7 @@ Confidence Score
 Recommended Resolution
 Free disk space and reschedule workloads.
 
-Similar Historical Incident
+Similar Historical Incident (if exists else this section will be hidden)
 INC-00001
 
 ## Functional Requirements
@@ -258,8 +258,3 @@ Slack alerts
 Deployment risk prediction
 Incident trend dashboard
 Release health scoring
-
-
-
-
-What does Root Cause Accuracy mean?
